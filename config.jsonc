@@ -16,7 +16,7 @@
     "modules": [
         {
             "type": "title",
-            "format":   "╭─ {#}{user-name} ──────────────────────────────────────────╮"
+            "format": "╭─ {#}{user-name} ──────────────────────────────────────────╮"
         },
         {
             "type": "custom",
@@ -41,37 +41,37 @@
         {
             "type": "os",
             "key": "│ OS",
-            "format":      "{#}{pretty-name}                         │",
+            "format": "{#}{pretty-name}                         │",
             "keyColor": "cyan"
         },
         {
             "type": "host",
             "key": "│ Host",
-            "format":      "{#}{name}     │",
+            "format": "{#}{name}     │",
             "keyColor": "cyan"
         },
         {
             "type": "kernel",
             "key": "│ Kernel",
-            "format":      "{#}{sysname} {#}{release} │",
+            "format": "{#}{sysname} {#}{release} │",
             "keyColor": "cyan"
         },
         {
             "type": "shell",
             "key": "│ Shell",
-            "format":      "{#}{pretty-name}                                    │",
+            "format": "{#}{pretty-name}                                    │",
             "keyColor": "cyan"
         },
         {
             "type": "packages",
             "key": "│ DPKG",
-            "format":      "{#}{dpkg} packages                             │",
+            "format": "{#}{dpkg} packages                             │",
             "keyColor": "cyan"
         },
         {
             "type": "packages",
             "key": "│ Snap",
-            "format":      "{#}{snap} packages                               │",
+            "format": "{#}{snap} packages                               │",
             "keyColor": "cyan"
         },
         {
@@ -85,31 +85,31 @@
         {
             "type": "display",
             "key": "│ Display",
-            "format":      "{#}{width}x{#}{height} {#}{refresh-rate}Hz                        │",
+            "format": "{#}{width}x{#}{height} {#}{refresh-rate}Hz                        │",
             "keyColor": "yellow"
         },
         {
             "type": "cpu",
             "key": "│ CPU",
-            "format":      "{#}{name} ({#}{cores-physical}) {#}{freq-base}   │",
+            "format": "{#}{name} ({#}{cores-physical}) {#}{freq-base}   │",
             "keyColor": "yellow"
         },
         {
             "type": "gpu",
             "key": "│ GPU",
-            "format":      "{#}{name} {#}{dedicated-total}      │",
+            "format": "{#}{name} {#}{dedicated-total}      │",
             "keyColor": "yellow"
         },
         {
             "type": "memory",
             "key": "│ Memory",
-            "format":      "{#}{used} / {#}{total} ({#}{percentage})             │",
+            "format": "{#}{used} / {#}{total} ({#}{percentage})             │",
             "keyColor": "yellow"
         },
         {
             "type": "swap",
             "key": "│ Swap",
-            "format":      "{#}{used} / {#}{total} ({#}{percentage})                      │",
+            "format": "{#}{used} / {#}{total} ({#}{percentage})                      │",
             "keyColor": "yellow"
         },
         {
